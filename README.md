@@ -1,2 +1,5 @@
-# UWT
-Seminarski rad iz predmeta Uvod u web tehnologije.
+# Uvod u web tehnologije
+
+NE UZIMAM ODGOVORNOST ZA POSLJEDICE UZROKOVANE PREDAJOM CIJELOG ILI DJELA SADRŽAJA REPOZITORIJA U SASTAVU VLASTITE PRIPREME NA BILO KOJI NAČIN.
+
+Seminarski rad iz predmeta Uvod u web tehnologije (TVZ 2023/24)
