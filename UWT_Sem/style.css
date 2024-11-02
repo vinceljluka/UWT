@@ -1,0 +1,754 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter Tight", sans-serif;
+    font-style: normal;
+}
+
+
+body{
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wraper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+    clear: both;
+}
+
+.footer-logo{
+    height: 25px;
+    width: 50px;
+    position: relative;
+    top: 5px;
+}
+
+.footer-logo1{
+    height: 25px;
+    width: 50px;
+    position: relative;
+    top: 0px;
+}
+
+.header-logo{
+    height: 65px;
+    width: 115px;
+    position: relative;
+    top: 15px;
+}
+
+.naslov-naslovnica{
+    font-size: 48px;
+    text-align: center;
+    padding: 10px;
+}
+
+.naslov-naslovnica1{
+    font-size: 48px;
+    text-align: center;
+    padding: 10px;
+    font-family: "Inter Tight", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+}
+
+.naslov-naslovnica2{
+    font-size: 48px;
+    text-align: center;
+    padding: 10px;
+    font-family: "Inter Tight", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.naslov-kontakt{
+    font-size: 48px;
+    text-align: center;
+    padding: 10px;
+}
+
+.naslov-onama{
+    font-size: 48px;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul {
+    position: relative;
+    left: -38px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: dotted;
+    background-color: rgb(255, 98, 0);
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.nav2{
+    border: 1px solid black;
+    width: 20%;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.opasno a{
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.opasno a:hover{
+    background-color: rgb(255, 98, 0); 
+    color: black;
+}
+
+
+.naslov-forma{
+    padding: 20px;
+}
+
+#maillink{
+    padding: 20px;
+    float: right;
+    border: 2px solid rgb(255, 98, 0);
+    transition-duration: 2s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+#maillink:hover{
+    background-color: rgb(255, 98, 0); 
+    color: black;
+}
+
+form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-div{
+    padding: 20px;
+}
+
+button{
+    border: 2px solid rgb(255, 98, 0);
+    transition-duration: 0.4s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+}
+
+button:hover{
+  background-color: rgb(255, 98, 0); 
+  color: black;
+}
+
+input, select, textarea {
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#ime, #upit, #poruka{
+    width: 100%;
+}
+
+#newsletter{
+    position: relative;
+    left: 20px;
+    top: 2px;
+}
+
+.prvo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.dobrodosli{
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.dobrodosli-p{
+    padding: 20px;
+}
+
+.left-box1{
+   width: 50%;
+   border-left: 1px solid black;
+   float: left;
+}
+
+#blueR{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+
+.right-box1{
+    float: right;
+    width: 50%;
+}
+
+.povijest-nike{
+    clear: both;
+    padding: 20px;
+}
+
+.povijest-naslov{
+    padding: 20px;
+}
+
+.povijest-p{
+    padding: 20px;
+}
+
+
+.right-box2{
+   width: 50%;
+   border-right: 1px solid black;
+   float: right;
+   text-align: right;
+   padding: 20px;
+}
+
+#logoJ{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 180px;
+}
+
+.left-box2{
+    float: left;
+}
+
+.kljucni-proizvodi{
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.proizvodi-naslov{
+    padding: 20px;
+}
+
+.proizvodi-p{
+    padding: 40px;
+    text-align: left;
+}
+
+
+th,td{
+    border: 1px solid black; 
+    padding: 8px;   
+    text-align: left;
+}
+
+#tablica{
+    padding: 20px;
+    position: relative;
+    left: 140px;
+}
+
+#waffle{
+    float: left;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    position: relative;
+    left: 135px;
+    padding: 20px;
+}
+
+#airJ{
+    float: right;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    position: relative;
+    right: 140px;
+    padding: 20px;
+}
+
+.slikice{
+    padding: 20px;
+}
+
+.inovacije{
+    border: 2px dashed black;
+    position: relative;
+    height: 560px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.box1{
+    width: 300px;
+    position: absolute;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.box2{
+    width: 300px;
+    position: relative;
+    left: 315px;
+    padding: 10px;
+}
+
+.box3{
+    width: 300px;
+    position: absolute;
+    left: 670px;
+    top: 40px;
+    padding: 10px;
+}
+
+.air{
+    padding-bottom: 20px;
+}
+
+#airmax{
+    height: 230px;
+    width: 230px;
+}
+
+#flyknit{
+    height: 230px;
+    width: 230px;
+    position: relative;
+    top: -33px;
+}
+
+#adapt{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 25px;
+    top: 16px;
+}
+
+.glavno{
+    padding-top: 20px;
+}
+
+.fiksirano{
+    border: 2px dashed black;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 400px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.mihael{
+    text-align: center;
+    padding: 5px;
+    padding-top: 30px;
+}
+
+#jordan{
+    height: 320px;
+    width: 220px;
+    position: relative;
+    left: -10px;
+    bottom: -19px;
+}
+
+.drustvo{
+    border: 2px dashed black;
+    position: relative;
+    height: 650px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin-top: 40px;
+}
+
+.nikesport{
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.sportas1{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    padding: 20px;
+    position: absolute;
+}
+
+#CR7{
+    height: 340px;
+    width: 250px;
+}
+
+.centar{
+    text-align: center;
+}
+
+#Carlos{
+    height: 340px;
+    width: 220px;
+}
+
+.sportas2{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    padding: 20px;
+    position: absolute;
+    left: 350px;
+}
+
+#Tiger{
+    height: 340px;
+    width: 170px;
+}
+
+.sportas3{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    padding: 20px;
+    position: absolute;
+    left: 660px;
+}
+
+iframe{
+    width: 100%;
+}
+
+.marin{
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+nav.marin ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav.marin ul li {
+    display: inline;
+}
+
+nav.marin ul li a {
+    border-radius: 50px;
+    text-decoration: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.opasno a{
+    display: block;
+}
+
+
+@media screen and (max-width: 768px) {
+    nav.marin ul {
+        display: block;
+    }
+
+    nav.marin ul li {
+        display: block;
+        margin-bottom: 10px; 
+    }
+
+    nav.marin ul li a {
+        display: block;
+    }
+
+    .marin{
+        margin-left: 70px;
+    }
+
+}
+
+@media screen and (max-width: 391px) {
+    .header-logo{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    hr{
+        display: none;
+    }
+}
+
+#flaj{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.fiksirano1{
+    border: 2px solid black;
+    float: right;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin-top: -200px;
+}
+
+.paa{
+    padding-top: 30px;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.fff{
+    text-align: center;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1707px) {
+    .fiksirano1{
+        height: 200px;
+        width: 140px;
+    }
+    .paa{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1565px) {
+    .fiksirano1{
+        height: 200px;
+        width: 140px;
+    }
+    .paa{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 694px) {
+    .fiksirano1{
+        height: 150px;
+        width: 100px;
+    }
+    .paa{
+        font-size: 13px;
+    }
+    .fff{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .fiksirano1{
+        margin-top: -400px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .fiksirano1{
+        margin-top: -490px;
+    }
+    .paa{
+        font-size: 11px;
+    }
+    .fff{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .fiksirano1{
+        height: 150px;
+        width: 70px;
+        margin-top: -510px;
+    }
+    .paa{
+        font-size: 9px;
+    }
+    .fff{
+        font-size: 6px;
+    }
+}
+
+
+.fff a{
+    text-decoration: none;
+}
+
+.fa-basket-shopping{
+    color: rgb(217, 43, 12);
+    font-size: smaller;
+}
+
+
+
+.container1{
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item {
+    flex: 1 1 calc(33.333% - 40px);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.discounted .original-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+
+.add-to-cart {
+    background-color: rgb(217, 43, 12);;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+    transition: color 0.6s ease;
+}
+
+.add-to-cart:hover {
+    background-color: rgb(106, 53, 43);;
+}
+
+@media (max-width: 770px) {
+    .item {
+        flex: 1 1 100%;
+    }
+}
+
+.uhh{
+    margin-top: 10px;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-image: url('images/najk.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Tamna prozirna pozadina */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay h1 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 0 20px;
+}
